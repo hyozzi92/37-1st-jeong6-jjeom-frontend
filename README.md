@@ -34,14 +34,37 @@
 > Common :  RESTful API
 > 
 
-### **구현 기능**
+### **내가 구현한 기능**
 
 ### 회원가입/로그인
-
-- 
+1. 로그인
+  - 기본디자인에서 효과를 넣어봤다
+  - 클라이언트 단에서 Validation을 1차적으로 넣었다.
+  
+  ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/106464348/203305422-20a06fa1-17c4-42b8-b003-8a07bcfbb404.gif)
+  
+2. 회원가입
+ - 여기도 마찬가지로 1차 Validation으로 서버와의 통신을 줄였다.
+ 
+  
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/106464348/203305854-7685b23e-6d82-4bdb-a236-6d8f952e9c1d.gif)
 
 ### 메인페이지
+1. 캐러셀
+  - 배너이미지를 500px로 늘어뜨려서 클릭 시 100px만큼 이동하는 형식으로 구현(setTime 함수도 사용했지만 지저분한 느낌이 들어서 제거)
 
+
+<br>
+
+![캐러셀](https://user-images.githubusercontent.com/106464348/203301108-8933b363-8edf-4ae6-ad8a-7e7c38c4e5c8.gif)
+
+
+2. 추천상품리스트
+   - 원하는 카테고리 선택시 관련 상품들이 보여지게 구현
+   - 추천상품은 Math.random 함수를 사용해서 무작위로 표현
+   
+   <br>
+![추천상품리스트](https://user-images.githubusercontent.com/106464348/203301831-174d7765-ef73-47a3-8ba8-cd603a2a092c.gif)
 ### 리스트
 
 ### 상세
